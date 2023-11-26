@@ -1,0 +1,25 @@
+{
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "lint": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    },
+    "install": {
+      "cache": true
+    }
+  },
+  "nxCloudAccessToken": "MDUxOTUwMjYtZTM0MC00OTNiLThjZDAtYmI0NjkyZjg5NzRhfHJlYWQtd3JpdGU=",
+  "plugins": [
+    "@nxrocks/nx-spring-boot"
+  ]
+}
