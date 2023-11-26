@@ -4,9 +4,7 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ]
+      "dependsOn": ["^build"]
     },
     "lint": {
       "cache": true
@@ -19,7 +17,5 @@
     }
   },
   "nxCloudAccessToken": "MDUxOTUwMjYtZTM0MC00OTNiLThjZDAtYmI0NjkyZjg5NzRhfHJlYWQtd3JpdGU=",
-  "plugins": [
-    "@nxrocks/nx-spring-boot"
-  ]
+  "plugins": ["@nxrocks/nx-spring-boot"]
 }

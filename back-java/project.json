@@ -9,33 +9,23 @@
       "options": {
         "root": "./back-java"
       },
-      "dependsOn": [
-        "^install"
-      ],
-      "outputs": [
-        "{workspaceRoot}/back-java/build"
-      ]
+      "dependsOn": ["^install"],
+      "outputs": ["{workspaceRoot}/back-java/build"]
     },
     "install": {
       "executor": "@nxrocks/nx-spring-boot:install",
       "options": {
         "root": "./back-java"
       },
-      "dependsOn": [
-        "^install"
-      ],
-      "outputs": [
-        "{workspaceRoot}/back-java/build"
-      ]
+      "dependsOn": ["^install"],
+      "outputs": ["{workspaceRoot}/back-java/build"]
     },
     "test": {
       "executor": "@nxrocks/nx-spring-boot:test",
       "options": {
         "root": "./back-java"
       },
-      "outputs": [
-        "{workspaceRoot}/back-java/build"
-      ]
+      "outputs": ["{workspaceRoot}/back-java/build"]
     },
     "clean": {
       "executor": "@nxrocks/nx-spring-boot:clean",
@@ -60,9 +50,7 @@
       "options": {
         "root": "./back-java"
       },
-      "outputs": [
-        "{workspaceRoot}/back-java/build"
-      ]
+      "outputs": ["{workspaceRoot}/back-java/build"]
     },
     "build-info": {
       "executor": "@nxrocks/nx-spring-boot:build-info",
