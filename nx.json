@@ -16,6 +16,5 @@
       "cache": true
     }
   },
-  "nxCloudAccessToken": "MDUxOTUwMjYtZTM0MC00OTNiLThjZDAtYmI0NjkyZjg5NzRhfHJlYWQtd3JpdGU=",
   "plugins": ["@nxrocks/nx-spring-boot"]
 }
