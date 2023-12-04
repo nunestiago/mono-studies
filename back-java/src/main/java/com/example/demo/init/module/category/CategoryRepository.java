@@ -1,4 +1,4 @@
-package com.example.demo.module.category;
+package com.example.demo.init.module.category;
 
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;

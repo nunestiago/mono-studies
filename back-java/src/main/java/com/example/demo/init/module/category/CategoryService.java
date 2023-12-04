@@ -1,6 +1,6 @@
-package com.example.demo.module.category;
+package com.example.demo.init.module.category;
 
-import com.example.demo.module.category.CategoryController.CategoryInput;
+import com.example.demo.init.module.category.CategoryController.CategoryInput;
 import org.springframework.stereotype.Service;
 
 @Service

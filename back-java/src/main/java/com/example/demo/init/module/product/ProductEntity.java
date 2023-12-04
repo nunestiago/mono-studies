@@ -1,6 +1,6 @@
-package com.example.demo.module.product;
+package com.example.demo.init.module.product;
 
-import com.example.demo.module.category.CategoryEntity;
+import com.example.demo.init.module.category.CategoryEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

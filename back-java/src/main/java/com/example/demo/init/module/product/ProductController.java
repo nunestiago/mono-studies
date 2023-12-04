@@ -1,4 +1,4 @@
-package com.example.demo.module.product;
+package com.example.demo.init.module.product;
 
 import java.math.BigDecimal;
 import java.util.UUID;
